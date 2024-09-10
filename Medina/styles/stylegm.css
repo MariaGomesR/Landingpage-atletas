@@ -1,0 +1,415 @@
+ 
+@import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@100..800&family=Libre+Franklin:ital,wght@0,700;1,700&display=swap');
+
+
+:root{
+
+    --cor-primaria:#2a5f55;
+
+    --cor-secundaria:#ffffff;
+
+    --cor-terceraria:#e1cc5f;
+
+    --cor-quarta:#ffdf2b;
+
+    --cor-hover:#ffffff;
+
+    --fonte-primaria:'Libre Franklin' , sans-serif;
+
+    --fonte-secundaria: 'Anek Devanagari' , sans-serif;
+    
+}
+
+body{
+    
+    background-color: #2a5f55;
+
+    color:var(--cor-secundaria);
+
+    background-image: url("../assetsMedina/landingpagegm.png");
+
+    background-repeat:no-repeat;
+
+    background-size: 99%;
+}
+    nav a:hover{
+    color: var(--cor-hover);
+ }
+
+
+*{
+    margin: 0px;
+
+    padding: 0px;
+}
+
+.cabecalho{
+
+     width: 1124px;
+
+     margin: 50px auto 50px auto;
+}
+
+.cabecalho_menu_link{
+
+     color: var(--cor-quarta);
+
+     text-decoration: none;
+
+     font-size: 23px;
+
+     font-weight: 1000px;
+
+     font-family: var(--fonte-secundaria);
+
+     left:300px;
+
+     top: 100px;
+
+     padding: 60px;
+
+     position: relative;
+
+     
+}
+ 
+.apresentacao{
+
+     width: 1055px;
+
+     margin: 0px auto 30px auto;
+
+     display: grid;
+
+     grid-template-columns: auto auto;
+
+}
+
+    /* mais comandos em breve*/
+
+.apresentacao_contexto{
+
+        width: 602px;
+
+}
+
+
+.apresentacao_contexto_texto{
+
+        font-size: 20px;
+
+        line-height: 25px;
+
+        text-align: justify;
+
+        font-family: var(--fonte-secundaria);
+
+        position: relative;
+
+        left: -18%;
+
+        text-decoration-style: solid;
+
+        right: 30px;
+
+        top: -10px;
+}
+
+
+.apresentacao_titulo0{
+
+        font-size:100px;
+
+        color:var(--cor-quarta);
+
+        margin-bottom: 50px;
+
+        font-family: var(--fonte-primaria);
+
+        position: relative;
+
+        left: -100px;
+
+        top: 30px;
+
+        text-shadow: #e1cc5f;
+
+}
+.apresentacao_contexto_titulo1{
+
+        font-size:90px;
+
+        margin-bottom: 5px;
+
+        font-family: var(--fonte-primaria);
+
+        position: relative;
+
+        left: -100px;
+
+        -webkit-text-stroke-width: 5px;
+
+        -webkit-text-stroke-color: var(--cor-quarta);
+        
+        font-size: 120px; color: var(--cor-primaria);
+
+        top: -20px;
+}
+
+.Skate{
+    font-family: var(--fonte-primaria);
+
+    font-size: 30px;
+
+    color: var(--cor-quarta);
+
+    position: relative;
+
+    top: 20px;
+
+    left: -85px;
+
+}
+.apresentacao_link{
+
+    
+     text-align: center;
+
+}
+
+.apresentacao_links_link0{
+
+    text-align: center;
+
+    font-size: 20px;
+
+    font-weight: 600;
+
+    width: 378px;
+
+    color: var(--cor-secundaria);  
+    
+    position: absolute;
+
+    margin: 8 10px;
+
+    top: 100%;
+
+    left: 7px;
+
+    text-decoration: none;
+    
+    font-family: var(--fonte-secundaria);
+}
+.apresentacao_links_link1{
+
+    text-align: center;
+
+    font-size: 20px;
+
+    font-weight: 600;
+
+    width: 378px;
+
+    color: var(--cor-secundaria);  
+    
+    position: absolute;
+
+    margin: 8 10px;
+
+    top: 101%;
+
+    left: 160px;
+
+    text-decoration: none;
+    
+    font-family: var(--fonte-secundaria);
+}
+.apresentacao_bronze{
+
+    font-family: var(--fonte-primaria);
+
+    font-weight: 100;
+
+    font-size: 20px;
+
+    width: 535px;
+
+    margin-top:10px;
+
+    position: relative;
+
+    padding: 40px;
+
+    left: -6%;
+
+    top: -35px;
+}
+.apresentacao_bronzep{
+    font-family: var(--fonte-secundaria);
+
+    font-weight: 300;
+
+    font-size: 20px;
+
+    width: 535px;
+
+    margin-top:20px;
+
+    position: relative;
+
+    padding: 40px;
+
+    left: -7%;
+
+    top: -120px;
+
+
+}
+
+.apresentacao_prata{
+
+    font-family: var(--fonte-primaria);
+
+    font-weight: 200;
+
+    font-size: 20px;
+
+    width: 535px;
+
+    margin-top:10px;
+
+    padding: 40px;
+
+    left: 480px;
+
+    top: 80%;
+
+    position:absolute
+}
+
+.apresentacao_ouro{
+
+    font-family: var(--fonte-primaria);
+
+    font-weight: 200;
+
+    font-size: 20px;
+
+    width: 535px;
+
+    margin-top:10px;
+
+    padding: 40px;
+
+    left: 50%;
+
+    top: 80%;
+
+    position:absolute
+
+}
+
+.medalhaprata{
+    left: 25%;
+
+    margin: -1%;
+
+    size: 50px;
+
+    margin-top: -2px;
+
+    margin: 8 10px;
+
+    position:absolute;
+}
+.apresentacao_prataw{
+    font-family: var(--fonte-secundaria);
+
+    font-weight: 300;
+
+    font-size: 20px;
+
+    width: 535px;
+
+    margin-top:20px;
+
+    position: relative;
+
+    padding: 40px;
+
+    left: 30%;
+
+    top: -252px;
+
+}
+.apresentacao_ourow{
+    font-family: var(--fonte-secundaria);
+
+    font-weight: 300;
+
+    font-size: 20px;
+
+    width: 535px;
+
+    margin-top:20px;
+
+    position: relative;
+
+    padding: 40px;
+
+    left: 77%;
+
+    top: -385px;
+
+}
+.medalhabronze{
+
+    width: 700px;
+
+    top: 60%;
+
+    position:absolute;
+
+    left: 14.5%;
+
+    margin: -100px;
+
+    margin-top: 170px;
+}
+
+.medalhaouro{
+
+    width: 700px;
+
+    top: 60%;
+
+    position:absolute;
+
+    left: 50%;
+
+    margin: -100px;
+
+    margin-top: 177px;
+}
+
+.polaroid{
+
+    position: absolute;
+
+    left: 55%;
+
+    width: 50px;
+
+    height: auto; 
+
+    top: 200px;
+}
+
+.apresentacao_links_link0:hover{
+    color:var(--cor-quarta)
+}
+
+.apresentacao_links_link1:hover{
+    color:var(--cor-quarta)
+}
